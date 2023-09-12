@@ -51,11 +51,12 @@ Node.js - 18.17.1
     1º - Abra o terminal CMD;
     2º - Vá até a pasta onde está o projeto, com o comando
          "cd C:/o-caminho-do-projeto" e aperte enter;
-    3º - Após o caminho se alternar para o local do projeto, basta
+    3º - Instale o pacote NPM com o seguinte trecho "npm intall";
+    4º - Após o caminho se alternar para o local do projeto, basta
          escrevar "npm run dev" e apertar enter novamente;
-    4º - Vai gerar um link, muito similar a esse:
+    5º - Vai gerar um link, muito similar a esse:
          "http://localhost:3000";
-    5º - basta copiar esse link e abrir em seu navegador.
+    6º - basta copiar esse link e abrir em seu navegador.
 
 ******************************************************************
 
