@@ -1,16 +1,15 @@
-***************************** CRUD MV *****************************
+********************** CRUD MV **********************************
 - 01/09/2023 
 - Feito Por: Matheus j. Santos 
-- CRUD MV: FullStack
 - +55 (11) 97231-7718
 
 Versões utilizadas nos Projetos:
 Vue/cli - 5.0.8
 composer -  2.6.1
-Laravel - 10.21.0
+Laravel - 6
 
 Versões utilizadas na máquina:
-PHP - 8.2.10
+PHP - 7.3
 MySQL - 8.1.0
 Node.js - 18.17.1
 *******************************************************************
@@ -62,19 +61,18 @@ Node.js - 18.17.1
 
 
 
-***************************** CRUD MV *****************************
+********************** CRUD MV **********************************
 - 01/09/2023 
 - Feito Por: Matheus j. Santos 
-- CRUD MV: FullStack
 - +55 (11) 97231-7718
 
 Versões utilizadas nos Projetos:
 Vue/cli - 5.0.8
 composer -  2.6.1
-Laravel - 10.21.0
+Laravel - 6
 
 Versões utilizadas na máquina:
-PHP - 8.2.10
+PHP - 7.3.10
 MySQL - 8.1.0
 Node.js - 18.17.1
 *******************************************************************
