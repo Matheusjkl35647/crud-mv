@@ -2,7 +2,7 @@
 
 <p align="center">Matheus j. Santos - +55 (11) 97231-7718</p>
 
-## Funcionalidades
+## Linguagens e dependências
 
 :dart: Vue/cli - 5.0.8
 
