@@ -1,78 +1,75 @@
-********************** CRUD MV **********************************
-- 01/09/2023 
-- Feito Por: Matheus j. Santos 
-- +55 (11) 97231-7718
+<h1 align="center"> CRUD - Reserva de Véiculo </h1>
 
-Versões utilizadas nos Projetos:
-Vue/cli - 5.0.8
-composer -  2.6.1
-Laravel - 6
+<p align="center">Matheus j. Santos - +55 (11) 97231-7718</p>
 
-Versões utilizadas na máquina:
-PHP - 7.3
-MySQL - 8.1.0
-Node.js - 18.17.1
-*******************************************************************
+## Funcionalidades
 
+:dart: Vue/cli - 5.0.8
 
+:dart: PHP - 7.3 
 
-******************** INSTALANDO O PROJETO *************************
+:dart: MySQL - 8.1.0  
 
-    Abaixo, organizei um passo a passo de como rodar o meu projeto.
+:dart: Node.js - 18.17.1
 
-    BACK-END: -> -> -> -> -> PASTA -> -> -> -> -> -> backend-mv
-    Pressupondo que o PHP, o LARAVEL e o MYSQL já estão corretamente
-    instalados, siga os passos abaixo: 
-    
-    *OBS: configure a rota para o banco de dados no .env do projeto.
+:dart: Composer -  2.6.1
 
-    1º - Abra o terminal CMD;
-    2º - Vá até a pasta onde está o projeto, com o comando
-         "cd C:/o-caminho-do-projeto" e aperte enter;
-    3º - Após o caminho se alternar para o local do projeto, basta
-         escrevar "php artisan migrate" e
-         apertar enter novamente, assim, você criou as tabelas no
-	 Banco de dados;
-    4º - Após concluído, no mesmo CMD digite
-         "php artisan db:seed --class=UsuarioSeeder", para alimentar
-	 o primeiro usuário e pessoa do banco de dados e ter acesso
-	 ao sistema.
-    5º - Para rodar a aplicação do lado do servidor, no mesmo CMD,
-	 digite, "php artisan serve", irá gerar um link igual a
-         esse "http://127.0.0.1:8000" e só, você já está pronto
-	 pra partir para o Front-end da aplicação. 
+:dart: Laravel - 6
 
 
-    FRONT-END: -> -> -> -> -> PASTA -> -> -> -> -> -> frontend-mv
-    Pressupondo que o Node.js (para rodar o comando 'npm') já está
-    instalado em sua máquina, siga os seguintes passos: 
+# No terminal, clone o projeto: 
+```
+git clone https://github.com/Matheusjkl35647/crud-mv/tree/master
+```
 
-    1º - Abra o terminal CMD;
-    2º - Vá até a pasta onde está o projeto, com o comando
-         "cd C:/o-caminho-do-projeto" e aperte enter;
-    3º - Instale o pacote NPM com o seguinte trecho "npm install";
-    4º - Após o caminho se alternar para o local do projeto, basta
-         escrevar "npm run dev" e apertar enter novamente;
-    5º - Vai gerar um link, muito similar a esse:
-         "http://localhost:3000";
-    6º - basta copiar esse link e abrir em seu navegador.
+# Instalando o projeto Back-End :arrow_forward:
+<p>
+- Pasta: backend-mv.
+OBS: configure a rota para o banco de dados no .env do projeto .
+</p>
 
-******************************************************************
+## Entre na pasta do projeto:
+```
+cd C:/o-caminho-do-projeto-backend
+```
 
+## Migre os dados para o Banco de dados:
+```
+php artisan migrate
+```
 
+## Alimentando Banco de dados: 
+```
+php artisan db:seed --class=UsuarioSeeder
+```
 
-********************** CRUD MV **********************************
-- 01/09/2023 
-- Feito Por: Matheus j. Santos 
-- +55 (11) 97231-7718
+## Executando o projeto
+```
+php artisan serve
+```
 
-Versões utilizadas nos Projetos:
-Vue/cli - 5.0.8
-composer -  2.6.1
-Laravel - 6
+# Instalando o projeto Front-End :arrow_forward:
+<p>
+- Pasta: frontend-mv
+</p>
 
-Versões utilizadas na máquina:
-PHP - 7.3.10
-MySQL - 8.1.0
-Node.js - 18.17.1
-*******************************************************************
+## Entre na pasta do projeto: 
+```
+cd C:/o-caminho-do-projeto-frontend
+```
+
+## Instale o pacote NPM:
+```
+npm install
+```
+
+## Execute o programa:
+```
+npm run dev
+```
+
+## Licença 
+
+The [MIT License]() (MIT)
+
+Copyright :copyright: 2023 - Matheus J. Santos
