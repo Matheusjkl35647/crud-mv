@@ -6,7 +6,7 @@
 
 :dart: Vue/cli - 5.0.8
 
-:dart: PHP - 7.3 
+:dart: PHP - 8.1
 
 :dart: MySQL - 8.1.0  
 
@@ -14,7 +14,7 @@
 
 :dart: Composer -  2.6.1
 
-:dart: Laravel - 6
+:dart: Laravel - 10.21
 
 
 # No terminal, clone o projeto: 
